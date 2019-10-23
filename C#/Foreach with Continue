@@ -1,0 +1,9 @@
+var names = new List<string>() { "Shehan", "Sadun", "Kumar" };
+foreach (string name in names)
+{
+    if (name == "Kumar")
+    {
+        continue;
+    }
+    Console.WriteLine(name);
+}
