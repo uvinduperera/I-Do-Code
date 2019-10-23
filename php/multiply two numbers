@@ -1,0 +1,11 @@
+<?php
+   if(isset($_POST['calculate'])) { 
+   
+       //Save the values in variable
+       $num1 = $_POST['190_mnth']; 
+       $num2 = $_POST['190_rate'];
+
+       //Calculate here
+       $total = $num1 * $num2;
+   }
+?>
